@@ -1,0 +1,33 @@
+
+        body{
+            background-image: url(background.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            padding: 0%;
+            margin: 0%;
+            
+        }
+        header,nav,section, main, aside,iframe,footer{
+            padding: 15px;
+            margin:10px ;
+            border-radius: 10px;
+        }
+        header{ background-color: bisque; text-align: center; }
+        nav  {background-color:rgb(138, 117, 117);
+        text-align: center; }
+        nav a{display: inline-block; text-decoration: none; 
+         color: black; justify-content: space-around;}
+        main{background-color: azure; }
+        section{background-color: bisque;}
+        aside{background-color: bisque;}
+        iframe{background-color: bisque;}
+        footer{background-color: rgb(246, 246, 129); text-align: center;}
+        .container{
+            display:flex;
+            margin-top: 50px;
+            padding-bottom: 50px;
+            width: 95%;
+        }
+        
